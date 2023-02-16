@@ -1,3 +1,4 @@
 /home/rodrigo/repos/C_Exercises3/cmake-build-debug/CMakeFiles/C_arraymap.dir
+/home/rodrigo/repos/C_Exercises3/cmake-build-debug/CMakeFiles/C_learncGrades.dir
 /home/rodrigo/repos/C_Exercises3/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/rodrigo/repos/C_Exercises3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

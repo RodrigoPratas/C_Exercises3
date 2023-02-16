@@ -71,6 +71,37 @@ build C_arraymap: C_EXECUTABLE_LINKER__C_arraymap_Debug CMakeFiles/C_arraymap.di
   TARGET_FILE = C_arraymap
   TARGET_PDB = C_arraymap.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C_learncGrades
+
+
+#############################################
+# Order-only phony target for C_learncGrades
+
+build cmake_object_order_depends_target_C_learncGrades: phony || CMakeFiles/C_learncGrades.dir
+
+build CMakeFiles/C_learncGrades.dir/learncGrades.c.o: C_COMPILER__C_learncGrades_Debug /home/rodrigo/repos/C_Exercises3/learncGrades.c || cmake_object_order_depends_target_C_learncGrades
+  DEP_FILE = CMakeFiles/C_learncGrades.dir/learncGrades.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C_learncGrades.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_learncGrades.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C_learncGrades
+
+
+#############################################
+# Link the executable C_learncGrades
+
+build C_learncGrades: C_EXECUTABLE_LINKER__C_learncGrades_Debug CMakeFiles/C_learncGrades.dir/learncGrades.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C_learncGrades.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C_learncGrades
+  TARGET_PDB = C_learncGrades.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -105,7 +136,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C_Exercises3/cmake-build-debug
 
-build all: phony C_arraymap
+build all: phony C_arraymap C_learncGrades
 
 # =============================================================================
 # Built-in targets

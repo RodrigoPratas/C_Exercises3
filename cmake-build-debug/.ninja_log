@@ -1,3 +1,5 @@
 # ninja log v5
-0	71	1676574725066512200	CMakeFiles/C_arraymap.dir/arraymap.c.o	68229ada2d37d318
 71	165	1676574725166512200	C_arraymap	a4343edd707d8c80
+0	71	1676574725066512200	CMakeFiles/C_arraymap.dir/arraymap.c.o	68229ada2d37d318
+0	40	1676576166156512200	CMakeFiles/C_learncGrades.dir/learncGrades.c.o	7f943bbd048d57cc
+40	118	1676576166236512200	C_learncGrades	3ec61d8e103bccfc
