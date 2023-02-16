@@ -2,7 +2,6 @@
 // Created by rodrigo on 2/16/23.
 //
 //    exercise: dobre a definição e uso de varaiveis do tipo ArrayBi a ser definido com typedef.....
-//    escrever o texto da linha seguinte no terminal do ubuntu (unix) para compilar/linkar
 //
 
 
