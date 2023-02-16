@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C-arraymap"
+			"path" : "C_arraymap"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +45,7 @@
 			]
 		}
 	],
-	"id" : "C-arraymap::@6890427a1f51a3e7e1df",
+	"id" : "C_arraymap::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -61,8 +61,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "C-arraymap",
-	"nameOnDisk" : "C-arraymap",
+	"name" : "C_arraymap",
+	"nameOnDisk" : "C_arraymap",
 	"paths" : 
 	{
 		"build" : ".",

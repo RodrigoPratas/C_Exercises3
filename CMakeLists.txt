@@ -4,5 +4,3 @@ project(C_)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(C_arraymap arraymap.c)
-add_executable(C_euroMilhões euroMilhões.c)
-add_executable(C_arrayoperations arrayoperations.c)
