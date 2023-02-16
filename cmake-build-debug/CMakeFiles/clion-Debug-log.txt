@@ -1,6 +1,6 @@
 /home/rodrigo/.cache/JetBrains/RemoteDev/dist/27035562b897f_CLion-231.6471.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/rodrigo/.cache/JetBrains/RemoteDev/dist/27035562b897f_CLion-231.6471.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/rodrigo/repos/C_Exercises3 -B /home/rodrigo/repos/C_Exercises3/cmake-build-debug
 CMake Error at CMakeLists.txt:7 (add_executable):
-  The target name "C-euroMilhões" is reserved or not valid for certain CMake
+  The target name "C_euroMilhões" is reserved or not valid for certain CMake
   features, such as generator expressions, and may result in undefined
   behavior.
 
