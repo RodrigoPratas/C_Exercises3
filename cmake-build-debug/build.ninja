@@ -102,6 +102,37 @@ build C_learncGrades: C_EXECUTABLE_LINKER__C_learncGrades_Debug CMakeFiles/C_lea
   TARGET_FILE = C_learncGrades
   TARGET_PDB = C_learncGrades.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C_testpointers
+
+
+#############################################
+# Order-only phony target for C_testpointers
+
+build cmake_object_order_depends_target_C_testpointers: phony || CMakeFiles/C_testpointers.dir
+
+build CMakeFiles/C_testpointers.dir/testpointers.c.o: C_COMPILER__C_testpointers_Debug /home/rodrigo/repos/C_Exercises3/testpointers.c || cmake_object_order_depends_target_C_testpointers
+  DEP_FILE = CMakeFiles/C_testpointers.dir/testpointers.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/C_testpointers.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_testpointers.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C_testpointers
+
+
+#############################################
+# Link the executable C_testpointers
+
+build C_testpointers: C_EXECUTABLE_LINKER__C_testpointers_Debug CMakeFiles/C_testpointers.dir/testpointers.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/C_testpointers.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C_testpointers
+  TARGET_PDB = C_testpointers.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/rodrigo/repos/C_Exercises3/cmake-build-debug
 
-build all: phony C_arraymap C_learncGrades
+build all: phony C_arraymap C_learncGrades C_testpointers
 
 # =============================================================================
 # Built-in targets

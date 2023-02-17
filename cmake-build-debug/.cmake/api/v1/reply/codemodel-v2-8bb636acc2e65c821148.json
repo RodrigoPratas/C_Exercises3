@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "C_learncGrades::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-C_learncGrades-Debug-2dd8b971d58acbda9d89.json",
 					"name" : "C_learncGrades",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C_testpointers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_testpointers-Debug-527564e616dd7f84a56f.json",
+					"name" : "C_testpointers",
 					"projectIndex" : 0
 				}
 			]
